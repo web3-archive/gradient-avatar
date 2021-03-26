@@ -99,7 +99,7 @@ typings/
 *.scss.map
 
 ## Build directory
-extension/
+/build
 dist/
 .awcache
 

@@ -12,15 +12,25 @@ npm install --save gradient-avatar
 
 ## Usage
 
+### Props
+
+```
+address: string
+primary: string (default: #521E8A)
+secondary: string (default: #1DBF8E)
+size: number (default: 30)
+```
+
+### Example
+
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'gradient-avatar'
-import 'gradient-avatar/dist/index.css'
+import Avatar from 'gradient-avatar'
 
-class Example extends Component {
+const Example = () => {
   render() {
-    return <MyComponent />
+    return <Avatar address="0xABCDEF" />
   }
 }
 ```
