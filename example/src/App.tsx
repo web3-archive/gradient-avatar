@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Avatar from 'gradient-avatar'
-import 'gradient-avatar/dist/index.css'
 
 const App = () => {
   return (
