@@ -1,10 +1,13 @@
 {
   "name": "gradient-avatar",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Made with create-react-library",
   "author": "devneser",
   "license": "MIT",
-  "repository": "Monstea-Collection/gradient-avatar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monstea-Collection/gradient-avatar.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -66,5 +69,15 @@
     "@types/uuid": "^8.3.0",
     "react-inlinesvg": "^2.2.2",
     "uuid": "^8.3.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Monstea-Collection/gradient-avatar/issues"
+  },
+  "homepage": "https://github.com/Monstea-Collection/gradient-avatar#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "avatar"
+  ]
 }
