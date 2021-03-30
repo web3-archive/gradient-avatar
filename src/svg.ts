@@ -4,11 +4,15 @@ const svg = `<?xml version="1.0" standalone="no"?>
   <g>
     <defs>
       <linearGradient id="$ID" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="$START%" stop-color="$FIRST"/>
-        <stop offset="$END%" stop-color="$SECOND"/>
+        <stop offset="0%" stop-color="$FIRST"/>
+        <stop offset="100%" stop-color="$SECOND"/>
       </linearGradient>
+      <clipPath id="$CLIP">
+        <circle cx="$RADIUS" cy="$RADIUS" r="$RADIUS"/>
+      </clipPath>
     </defs>
-    <circle fill="url(#$ID)" cx="$RADIUS" cy="$RADIUS" r="$RADIUS" transform="rotate($ROTATE, $RADIUS, $RADIUS)"/>
+    <circle fill="$BACK" cx="$RADIUS" cy="$RADIUS" r="$RADIUS" transform="rotate($ROTATE, $RADIUS, $RADIUS)"/>
+    $PATH
   </g>
 </svg>`
 export default svg

@@ -1,6 +1,6 @@
 {
-  "name": "gradient-avatar",
-  "version": "0.1.0",
+  "name": "@devneser/gradient-avatar",
+  "version": "1.1.0",
   "description": "Made with create-react-library",
   "author": "devneser",
   "license": "MIT",
@@ -75,9 +75,12 @@
   },
   "homepage": "https://github.com/Monstea-Collection/gradient-avatar#readme",
   "directories": {
-    "example": "example"
+    "avatar": "avatar"
   },
   "keywords": [
-    "avatar"
+    "avatar",
+    "gradient",
+    "icon",
+    "identicon"
   ]
 }
